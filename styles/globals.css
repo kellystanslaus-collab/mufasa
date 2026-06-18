@@ -1,0 +1,26 @@
+// Basic global styles (you can switch to Tailwind later)
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #f8fafc;
+  color: #0f172a;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+}
